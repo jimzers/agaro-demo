@@ -21,7 +21,7 @@
 <div id="div_join" class="panel panel-default">
 <div class="panel-body">
 App ID: <input id="key" type="text" placeholder="Enter App ID" value="" size="36"></input>
-Channel: <input id="channel" type="text" value="test" size="4"></input>
+Channel: johnsmithjanedoe
 <!--Host: <input id="video" type="checkbox" checked></input>-->
 <button id="join" class="btn btn-primary" onclick="join()">Join</button>
 <button id="leave" class="btn btn-primary" onclick="leave()">Leave</button>
@@ -87,7 +87,7 @@ function join() {
 
   client.init(key.value, function () {
     console.log("AgoraRTC client initialized");
-    client.join(channel_key, channel.value, null, function(uid) {
+    client.join(null, "johnsmithjanedoe", null, function(uid) {
       console.log("User " + uid + " join channel successfully");
 
       camera = videoSource.value;
