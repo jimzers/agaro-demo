@@ -9,34 +9,38 @@
 </head>
 
 <body>
-<div id="logo"><img src="/images/fitswap-logo-green.png"></div> </div>
-<h1 class="heading">Call with Novice Jimmy Lee</h1>
-<div id="div_device" class="panel panel-default">
-<div class="select">
-<label for="audioSource">Audio source: </label><select id="audioSource"></select>
-</div>
-<div class="select">
-<label for="videoSource">Video source: </label><select id="videoSource"></select>
-</div>
-</div>
+    <div id="logo">
+        <img src="https://www.fitswap.com/assets/images/fitswap-logo-icon.svg">
+        <img src="https://www.fitswap.com/assets/images/fitswap-logo-text.svg">
 
-<div id="div_join" class="panel panel-default">
-<div class="panel-body">
-    <!--
-App ID: 2afcd2b7acf04dfea7fa9265c5189d25
-Channel: johnsmithjimmylee
--->
-<!--Host: <input id="video" type="checkbox" checked></input>-->
-<button id="join" class="btn btn-primary" onclick="join()">Join</button>
-<button id="leave" class="btn btn-primary" onclick="leave()">Leave</button>
-<button id="muteAudio" class="btn btn-primary" onclick="muteAudio()">Mute</button>
-<button id="unmuteAudio" class="btn btn-primary" onclick="unmuteAudio()">Unmute</button>
-<button id="enableVideo" class="btn btn-primary" onclick="enableVideo()">Enable Video</button>
-<button id="disableVideo" class="btn btn-primary" onclick="disableVideo()">Disable Video</button>
+    </div>
+    <h1 class="fancy-heading">Call with Novice Jimmy Lee</h1>
+    <div id="div_device" class="panel panel-default hardware-panel">
+        <div class="select select-hardware">
+            <label for="audioSource">Audio source: </label><select id="audioSource"></select>
+        </div>
+        <div class="select select-hardware">
+            <label for="videoSource">Video source: </label><select id="videoSource"></select>
+        </div>
+    </div>
 
-</div>
+    <div id="div_join" class="panel panel-default hardware-panel">
+        <div class="panel-body">
+                <!--
+            App ID: 2afcd2b7acf04dfea7fa9265c5189d25
+            Channel: johnsmithjimmylee
+            -->
+            <!--Host: <input id="video" type="checkbox" checked></input>-->
+            <button id="join" class="btn btn-primary" onclick="join()">Join</button>
+            <button id="leave" class="btn btn-primary" onclick="leave()">Leave</button>
+            <button id="muteAudio" class="btn btn-primary" onclick="muteAudio()">Mute</button>
+            <button id="unmuteAudio" class="btn btn-primary" onclick="unmuteAudio()">Unmute</button>
+            <button id="enableVideo" class="btn btn-primary" onclick="enableVideo()">Enable Video</button>
+            <button id="disableVideo" class="btn btn-primary" onclick="disableVideo()">Disable Video</button>
 
-</div>
+        </div>
+
+    </div>
 
     <!--style>
     .video__box{width:910px; margin:0 auto; overflow:hidden;}
