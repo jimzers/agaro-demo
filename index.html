@@ -20,7 +20,7 @@
 
 <div id="div_join" class="panel panel-default">
 <div class="panel-body">
-App ID: <input id="key" type="text" placeholder="Enter App ID" value="" size="36"></input>
+App ID: 2afcd2b7acf04dfea7fa9265c5189d25
 Channel: johnsmithjanedoe
 <!--Host: <input id="video" type="checkbox" checked></input>-->
 <button id="join" class="btn btn-primary" onclick="join()">Join</button>
@@ -82,10 +82,10 @@ function join() {
   //document.getElementById("video").disabled = true;
   var channel_key = null;
 
-  console.log("Init AgoraRTC client with vendor key: " + key.value);
+  console.log("Init AgoraRTC client with vendor key: " + "2afcd2b7acf04dfea7fa9265c5189d25");
   client = AgoraRTC.createClient({mode: 'interop'});
 
-  client.init(key.value, function () {
+  client.init("2afcd2b7acf04dfea7fa9265c5189d25", function () {
     console.log("AgoraRTC client initialized");
     client.join(null, "johnsmithjanedoe", null, function(uid) {
       console.log("User " + uid + " join channel successfully");
