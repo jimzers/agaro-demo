@@ -11,7 +11,7 @@ body {
     letter-spacing: 0.025em;
     /* tur off ios font adjustment */
     -webkit-text-size-adjust: 100%;
-    color: #5dfd46
+    background-color: #00ac77
 }
 
 h1,
