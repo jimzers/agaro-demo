@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Call with Jimmy Lee</title>
-<link rel="stylesheet" href="vendor/bootstrap.min.css">
-<script src="AgoraRTCSDK-2.2.0.js"></script>
-<script src="vendor/jquery.js"></script>
+    <title>Call with Jimmy Lee</title>
+    <link rel="stylesheet" href="vendor/bootstrap.min.css">
+    <link rel="stylesheet" href="stylesheet.css">
+    <script src="AgoraRTCSDK-2.2.0.js"></script>
+    <script src="vendor/jquery.js"></script>
 </head>
 
 <body>
-<h1>Call with Novice Jimmy Lee</h1>
+<h1 class="heading">Call with Novice Jimmy Lee</h1>
 <div id="div_device" class="panel panel-default">
 <div class="select">
 <label for="audioSource">Audio source: </label><select id="audioSource"></select>
@@ -54,6 +55,10 @@ Channel: johnsmithjimmylee
 <div id="video" style="margin:0 auto;">
     <div id="agora_local" style="float:right;width:210px;height:147px;display:inline-block;"></div>
 </div>
+
+
+
+<!-- javascript below -->
 <script language="javascript">
 
 if(!AgoraRTC.checkSystemRequirements()) {
