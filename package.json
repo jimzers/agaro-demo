@@ -1,0 +1,24 @@
+{
+  "name": "livechat-fitswap",
+  "version": "1.0.0",
+  "description": "a basic app based off sidsharma27's demo of agaro's livestream feature",
+  "main": "app.js",
+  "dependencies": {
+    "node": "^11.1.0",
+    "nodemon": "^1.18.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jimzers/livechat-fitSwap.git"
+  },
+  "author": "jimzers",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jimzers/livechat-fitSwap/issues"
+  },
+  "homepage": "https://github.com/jimzers/livechat-fitSwap#readme"
+}
